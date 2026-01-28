@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    </style>
+    <script>
+        function R_Click(){
+            let janken = ["✊","✌️","✋"]
+            let jankenr = Math.floor(Math.random() * 3)
+            document.getElementById("Rejan2").innerHTML = "相手は" + janken[janken_r] + "を出しました";
+        }
+    </script>
+</head>
+<body>
+    <button onclick="R_Click();">じゃんけんスタート</button>
+    <div id="Rejan2"></div>
+
+</body>
+</html>
